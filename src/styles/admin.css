@@ -1,0 +1,44 @@
+.admin-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.admin-container h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.results-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.result-item {
+    padding: 20px;
+    background-color: white;
+    color:black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.result-item:hover {
+    transform: translateY(-5px);
+}
+
+.result-item p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.result-username {
+    font-weight: bold;
+}
+
+.result-score {
+    color: #4caf50;
+    font-size: 18px;
+}
